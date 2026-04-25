@@ -1,40 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Transfer — Fast, Free & Easy File Transfer Online | Send-Anywhere.in</title>
-    <meta name="description" content="Looking for the fastest file transfer solution? Send-Anywhere.in offers free, instant file transfer between any devices — mobile, PC, laptop — no registration needed.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Inter', sans-serif; background: #f9fafb; color: #1f2937; line-height: 1.8; }
-        header { background: #fff; padding: 1rem 2rem; border-bottom: 1px solid #e5e7eb; }
-        header a { text-decoration: none; font-size: 1.4rem; font-weight: 800; color: #1f2937; }
-        header span { color: #ef4444; }
-        .container { max-width: 860px; margin: 3rem auto; padding: 0 1.5rem; }
-        h1 { font-size: 2.4rem; font-weight: 800; color: #111827; margin-bottom: 1rem; line-height: 1.3; }
-        h2 { font-size: 1.5rem; font-weight: 700; color: #111827; margin: 2rem 0 0.8rem; }
-        h3 { font-size: 1.15rem; font-weight: 600; color: #374151; margin: 1.5rem 0 0.5rem; }
-        p { margin-bottom: 1.2rem; font-size: 1.05rem; color: #374151; }
-        ul { margin: 0.5rem 0 1.2rem 1.5rem; }
-        ul li { margin-bottom: 0.5rem; font-size: 1.05rem; color: #374151; }
-        .badge { display: inline-block; background: #fef2f2; color: #ef4444; padding: 0.3rem 0.8rem; border-radius: 4px; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem; }
-        .cta-box { background: #ef4444; color: #fff; padding: 2rem; border-radius: 12px; text-align: center; margin: 2.5rem 0; }
-        .cta-box h2 { color: #fff; margin: 0 0 0.5rem; font-size: 1.6rem; }
-        .cta-box p { color: #fecaca; margin: 0 0 1.2rem; }
-        .cta-box a { background: #fff; color: #ef4444; padding: 0.8rem 2rem; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1rem; }
-        footer { text-align: center; padding: 2rem; color: #9ca3af; font-size: 0.9rem; border-top: 1px solid #e5e7eb; margin-top: 3rem; }
-    </style>
-</head>
-<body>
+<?php
+$pageTitle = "File Transfer — Fast, Free & Easy File Transfer Online | Send-Anywhere.in";
+$pageDesc  = "Looking for the fastest file transfer solution? Send-Anywhere.in offers free, instant file transfer between any devices — mobile, PC, laptop — no registration needed.";
+require_once '../includes/header.php';
+?>
 
-<header>
-    <a href="/"><span>Send</span> Anywhere</a>
-</header>
-
-<div class="container">
+<div class="page-body">
 
     <span class="badge">Free File Transfer — No Registration</span>
 
@@ -135,9 +105,4 @@
 
 </div>
 
-<footer>
-    <p>&copy; <?php echo date("Y"); ?> Send-Anywhere.in — All rights reserved.</p>
-</footer>
-
-</body>
-</html>
+<?php require_once '../includes/footer.php'; ?>
