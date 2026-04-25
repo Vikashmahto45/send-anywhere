@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Send Anywhere - Easy & Secure File Transfer'; ?></title>
     <meta name="description" content="<?php echo isset($pageDesc) ? $pageDesc : 'Send whatever you want, wherever you want. Secure and fast file transfer without any limits.'; ?>">
+    <meta name="keywords" content="<?php echo isset($pageKeywords) ? $pageKeywords : 'send anywhere, file transfer, share files online, free file sharing'; ?>">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
