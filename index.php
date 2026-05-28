@@ -163,9 +163,6 @@ require_once 'includes/header.php';
     <div class="hero-container">
 
         <div class="hero-text">
-            <div style="background-color: #d1fae5; color: #065f46; padding: 0.5rem 1rem; border-radius: 8px; display: inline-block; font-weight: 700; margin-bottom: 1.5rem; font-size: 0.9rem; border: 1px solid #a7f3d0;">
-                🟢 Deployment Test Successful
-            </div>
             <h1>Send whatever you want, wherever you want</h1>
             <p>Transfer files of any size quickly and securely across all your devices without the hassle of registration.</p>
         </div>
